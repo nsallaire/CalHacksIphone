@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7DC0C419DFDCE400AFBF64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DC0C319DFDCE400AFBF64 /* AppDelegate.swift */; };
+		EF7DC0C719DFDCE400AFBF64 /* CalHacksIphone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF7DC0C519DFDCE400AFBF64 /* CalHacksIphone.xcdatamodeld */; };
+		EF7DC0C919DFDCE400AFBF64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DC0C819DFDCE400AFBF64 /* ViewController.swift */; };
+		EF7DC0CC19DFDCE400AFBF64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7DC0CA19DFDCE400AFBF64 /* Main.storyboard */; };
+		EF7DC0CE19DFDCE400AFBF64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7DC0CD19DFDCE400AFBF64 /* Images.xcassets */; };
+		EF7DC0D119DFDCE400AFBF64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7DC0CF19DFDCE400AFBF64 /* LaunchScreen.xib */; };
+		EF7DC0DD19DFDCE400AFBF64 /* CalHacksIphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DC0DC19DFDCE400AFBF64 /* CalHacksIphoneTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF7DC0D719DFDCE400AFBF64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7DC0B619DFDCE400AFBF64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF7DC0BD19DFDCE400AFBF64;
+			remoteInfo = CalHacksIphone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF7DC0BE19DFDCE400AFBF64 /* CalHacksIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalHacksIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7DC0C219DFDCE400AFBF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7DC0C319DFDCE400AFBF64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF7DC0C619DFDCE400AFBF64 /* CalHacksIphone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalHacksIphone.xcdatamodel; sourceTree = "<group>"; };
+		EF7DC0C819DFDCE400AFBF64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF7DC0CB19DFDCE400AFBF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7DC0CD19DFDCE400AFBF64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF7DC0D019DFDCE400AFBF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF7DC0D619DFDCE400AFBF64 /* CalHacksIphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalHacksIphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7DC0DB19DFDCE400AFBF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7DC0DC19DFDCE400AFBF64 /* CalHacksIphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalHacksIphoneTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7DC0BB19DFDCE400AFBF64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7DC0D319DFDCE400AFBF64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7DC0B519DFDCE400AFBF64 = {
+			isa = PBXGroup;
+			children = (
+				EF7DC0C019DFDCE400AFBF64 /* CalHacksIphone */,
+				EF7DC0D919DFDCE400AFBF64 /* CalHacksIphoneTests */,
+				EF7DC0BF19DFDCE400AFBF64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7DC0BF19DFDCE400AFBF64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DC0BE19DFDCE400AFBF64 /* CalHacksIphone.app */,
+				EF7DC0D619DFDCE400AFBF64 /* CalHacksIphoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7DC0C019DFDCE400AFBF64 /* CalHacksIphone */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DC0C319DFDCE400AFBF64 /* AppDelegate.swift */,
+				EF7DC0C819DFDCE400AFBF64 /* ViewController.swift */,
+				EF7DC0CA19DFDCE400AFBF64 /* Main.storyboard */,
+				EF7DC0CD19DFDCE400AFBF64 /* Images.xcassets */,
+				EF7DC0CF19DFDCE400AFBF64 /* LaunchScreen.xib */,
+				EF7DC0C519DFDCE400AFBF64 /* CalHacksIphone.xcdatamodeld */,
+				EF7DC0C119DFDCE400AFBF64 /* Supporting Files */,
+			);
+			path = CalHacksIphone;
+			sourceTree = "<group>";
+		};
+		EF7DC0C119DFDCE400AFBF64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DC0C219DFDCE400AFBF64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF7DC0D919DFDCE400AFBF64 /* CalHacksIphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DC0DC19DFDCE400AFBF64 /* CalHacksIphoneTests.swift */,
+				EF7DC0DA19DFDCE400AFBF64 /* Supporting Files */,
+			);
+			path = CalHacksIphoneTests;
+			sourceTree = "<group>";
+		};
+		EF7DC0DA19DFDCE400AFBF64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DC0DB19DFDCE400AFBF64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7DC0BD19DFDCE400AFBF64 /* CalHacksIphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7DC0E019DFDCE400AFBF64 /* Build configuration list for PBXNativeTarget "CalHacksIphone" */;
+			buildPhases = (
+				EF7DC0BA19DFDCE400AFBF64 /* Sources */,
+				EF7DC0BB19DFDCE400AFBF64 /* Frameworks */,
+				EF7DC0BC19DFDCE400AFBF64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalHacksIphone;
+			productName = CalHacksIphone;
+			productReference = EF7DC0BE19DFDCE400AFBF64 /* CalHacksIphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7DC0D519DFDCE400AFBF64 /* CalHacksIphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7DC0E319DFDCE400AFBF64 /* Build configuration list for PBXNativeTarget "CalHacksIphoneTests" */;
+			buildPhases = (
+				EF7DC0D219DFDCE400AFBF64 /* Sources */,
+				EF7DC0D319DFDCE400AFBF64 /* Frameworks */,
+				EF7DC0D419DFDCE400AFBF64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7DC0D819DFDCE400AFBF64 /* PBXTargetDependency */,
+			);
+			name = CalHacksIphoneTests;
+			productName = CalHacksIphoneTests;
+			productReference = EF7DC0D619DFDCE400AFBF64 /* CalHacksIphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7DC0B619DFDCE400AFBF64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Nicholas Allaire";
+				TargetAttributes = {
+					EF7DC0BD19DFDCE400AFBF64 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					EF7DC0D519DFDCE400AFBF64 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = EF7DC0BD19DFDCE400AFBF64;
+					};
+				};
+			};
+			buildConfigurationList = EF7DC0B919DFDCE400AFBF64 /* Build configuration list for PBXProject "CalHacksIphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7DC0B519DFDCE400AFBF64;
+			productRefGroup = EF7DC0BF19DFDCE400AFBF64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7DC0BD19DFDCE400AFBF64 /* CalHacksIphone */,
+				EF7DC0D519DFDCE400AFBF64 /* CalHacksIphoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7DC0BC19DFDCE400AFBF64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7DC0CC19DFDCE400AFBF64 /* Main.storyboard in Resources */,
+				EF7DC0D119DFDCE400AFBF64 /* LaunchScreen.xib in Resources */,
+				EF7DC0CE19DFDCE400AFBF64 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7DC0D419DFDCE400AFBF64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7DC0BA19DFDCE400AFBF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7DC0C919DFDCE400AFBF64 /* ViewController.swift in Sources */,
+				EF7DC0C719DFDCE400AFBF64 /* CalHacksIphone.xcdatamodeld in Sources */,
+				EF7DC0C419DFDCE400AFBF64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7DC0D219DFDCE400AFBF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7DC0DD19DFDCE400AFBF64 /* CalHacksIphoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7DC0D819DFDCE400AFBF64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF7DC0BD19DFDCE400AFBF64 /* CalHacksIphone */;
+			targetProxy = EF7DC0D719DFDCE400AFBF64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF7DC0CA19DFDCE400AFBF64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7DC0CB19DFDCE400AFBF64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7DC0CF19DFDCE400AFBF64 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7DC0D019DFDCE400AFBF64 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7DC0DE19DFDCE400AFBF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF7DC0DF19DFDCE400AFBF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7DC0E119DFDCE400AFBF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalHacksIphone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF7DC0E219DFDCE400AFBF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalHacksIphone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF7DC0E419DFDCE400AFBF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalHacksIphoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalHacksIphone.app/CalHacksIphone";
+			};
+			name = Debug;
+		};
+		EF7DC0E519DFDCE400AFBF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalHacksIphoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalHacksIphone.app/CalHacksIphone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7DC0B919DFDCE400AFBF64 /* Build configuration list for PBXProject "CalHacksIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7DC0DE19DFDCE400AFBF64 /* Debug */,
+				EF7DC0DF19DFDCE400AFBF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7DC0E019DFDCE400AFBF64 /* Build configuration list for PBXNativeTarget "CalHacksIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7DC0E119DFDCE400AFBF64 /* Debug */,
+				EF7DC0E219DFDCE400AFBF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF7DC0E319DFDCE400AFBF64 /* Build configuration list for PBXNativeTarget "CalHacksIphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7DC0E419DFDCE400AFBF64 /* Debug */,
+				EF7DC0E519DFDCE400AFBF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF7DC0C519DFDCE400AFBF64 /* CalHacksIphone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF7DC0C619DFDCE400AFBF64 /* CalHacksIphone.xcdatamodel */,
+			);
+			currentVersion = EF7DC0C619DFDCE400AFBF64 /* CalHacksIphone.xcdatamodel */;
+			path = CalHacksIphone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF7DC0B619DFDCE400AFBF64 /* Project object */;
+}
